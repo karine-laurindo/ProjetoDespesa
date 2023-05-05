@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(27, 66%, 92%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo{
+    background-color: hsl(10, 79%, 65%);
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+
+
+    width: 24rem;
+    height: 5rem;
+
+    border-radius: 1rem;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+
+.title-logo{
+    font-size: 1rem;
+}
+
+.number-logo{
+    font-size: 1.5rem;
+}
+
+.caixa-principal{
+    background-color: white;
+    width: 24rem;
+    height: 22rem;
+    border-radius: 1rem;
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+.caixa-principal p{
+    padding: 0.5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+   
+}
+
+.graficos{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid;
+    padding-top: 3.5rem;
+}
+
+.dia{
+    color: gray;
+}
+
+.coluna1{
+    background-color: hsl(10, 79%, 65%);
+    width: 2rem;
+    height: 2rem;
+}
+.coluna2{
+    background-color: hsl(10, 79%, 65%);
+    width: 2rem;
+    height: 4rem;
+}
+.coluna3{
+    background-color: hsl(10, 79%, 65%);
+    width: 2rem;
+    height: 6rem;
+}
+.coluna4{
+    background-color: hsl(10, 79%, 65%);
+    width: 2rem;
+    height: 3rem;
+}
+.coluna5{
+    background-color: hsl(10, 79%, 65%);
+    width: 2rem;
+    height: 2.5rem;
+}
+
+.coluna6{
+    background-color: hsl(10, 79%, 65%);
+    width: 2rem;
+    height: 5rem;
+}
+
+.coluna7{
+    background-color: hsl(10, 79%, 65%);
+    width: 2rem;
+    height: 3.5rem;
+}
+
+.end-content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}  
+
+.end-content2{
+   padding-top: 0.5rem;
+ } 
+
+.text1{
+    font-size: 0.75rem;
+    color: gray;
+}
+
+.number1{
+    font-size: 2rem;
+   
+}
+
+.text2{
+    font-size: 0.75rem;
+    color: gray;
+}
+
+.number2{
+    font-size: 0.75rem;
+    
+}
